@@ -6,7 +6,7 @@ $res = pg_query("SELECT * from usuario order by id");
 <table>
     <thead>
         <tr>
-            <th> #</th>
+            <th> Lista</th>
             <th> Login</th>
             <th> Editar</th>
             <th> Excluir</th>

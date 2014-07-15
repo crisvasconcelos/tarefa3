@@ -2,6 +2,7 @@
 include_once 'conexao.php';
 
 $id = $_POST['id'];
-$login = $_POST['login'];
-pg_query("update usuario set login= '$login' where id = $id");
-header("location: listar.php");
+$medico = $_POST['medico'];
+$horario = $_POST['horario'];
+pg_query("update medico set medico= '$medico', horario= '$horario'  where id= $id");
+header("location: listas.php");

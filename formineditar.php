@@ -1,13 +1,21 @@
+<?php
+include_once("header.php");
+?>
+
 <form action="editar.php" method="POST">
     <fieldset>
-        <legend> Cadastro de login de usuário</legend>
-        <input type="hidden" name="id" value="<?= $_GET['id'];?>" />
-        <label> login:
-            <input type="text" name="login" value="<?= $_GET['login'];?>" />
+        <legend> Medicos</legend>
+        <input type="hidden" name="id" value="<?= $_GET['id']; ?>" />
+        <label> Nome:
+            <input type="text" name="medico" value="<?= $_GET['medico']; ?>" />
         </label>
-        <button type="submit" > Enviar</button>
-            
+        <label> horario:
+            <input type="text" name="horario" value="<?= $_GET['horario']; ?>" />
+        </label>
+        <button type="submit" class="btn btn-success"> Enviar</button>
+
+
     </fieldset>
-        
+
 </form>
 
