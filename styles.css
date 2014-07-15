@@ -1,0 +1,118 @@
+/*
+* css reset
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	
+}
+#estrutura {
+	width: 900px;
+	border: 1px solid black;
+	margin: 0 auto;
+}
+#topo {
+	height: 50px;
+	background: green;
+}
+#topo h1 {
+	color: white;
+	padding: 5px;
+	font: 20px verdana, arial, sans-serif;
+	margin: 0;
+	text-align: center;
+}
+#menu-horizontal{ 
+	background: purple;
+	height: 59px;
+}
+
+#menu-horizontal ul li a {
+	display: block;
+	float: left;
+	background: purple;
+    padding: 20px 30px;
+    border-right: 1px solid black;
+    text-decoration: none;
+}
+
+#menu-horizontal ul li a:hover {
+    background: red;
+    color: white;
+    text-decoration: none;
+}
+#menu-horizontal ul li a:active {
+	background: black;
+	color: #C48135;
+}
+#menu-horizontal ul li a:visited {
+	color: #60CE31;
+}
+#menu {
+	width: 200px;
+	float: left;
+	clear: both;
+}
+#menu ul li a {
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	border-bottom: 1px solid black;
+	text-decoration: none;
+}
+#menu ul li a:hover {
+    background: blue;
+    color :yellow;
+    text-decoration: none;
+}
+#menu ul li a:active {
+	background: black;
+	color: pink; 
+}
+#menu ul li a:visited {
+    color: red;
+}
+
+#conteudo {
+	float: left;
+	width: 700px;
+}
+#footer p {
+	text-align: center;
+	background: #CCC;
+	clear: both;
+
+}
+fieldset {
+       width: 650px;
+       border: none; }
+
+fieldset legend { font: bold 14px verdana, arial, sans-serif;
+  color: #14077F;}
+
+ label {
+   display: inline-block;
+   font: 12px verdana, arial,sans-serif;
+   width: 200px;
+   margin: 10px;
+ }
+ 
+ label, input { width: 150px;
+ }
+
+ul {
+	list-style: circle;
+}
+
+.inlineUl li { display: inline; }
+dl {
+	padding: 10px;
+	border: 1px solid black;
+}
+dt { font-weight: bold;
+}
+dd {
+	background-color: #CCC;
+}
+
