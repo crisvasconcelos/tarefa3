@@ -32,7 +32,7 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="listas.php"> Médicos</a></li>
-                        <li><a href="#halepolepo"> Consultas </a> </li>
+                        <li><a href="consultas.php"> Consultas </a> </li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Cadastro <b class="caret"></b></a>
                             <ul class="dropdown-menu">
