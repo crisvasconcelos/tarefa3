@@ -23,6 +23,6 @@ $res = pg_query("SELECT * from consultas order by id");
         <?php endwhile; ?>
     </tbody>
 </table>
-<a href="forminsert.php" class="btn btn-primary">Inserir</a>
+<a href="forminsertC.php" class="btn btn-primary">Inserir</a>
 <?php
 include_once("footer.php");
