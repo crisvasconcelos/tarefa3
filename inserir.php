@@ -1,9 +1,10 @@
 <?php
 include_once 'conexao.php';
 
-$login= $_POST['login'];
+$medico= $_POST['medico'];
+$horario = $_POST['horario'];
   
-if ($login ){
-pg_query("INSERT INTO usuario (login) VALUES ('$login');");
+if ($medico ){
+pg_query("INSERT INTO medico (medico, horario) VALUES ('$medico','$horario');");
 }
-header("location: listar.php");
+header("location: listas.php");
