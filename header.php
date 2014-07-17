@@ -34,13 +34,15 @@
                         <li><a href="listas.php"> Médicos</a></li>
                         <li><a href="consultas.php"> Consultas </a> </li>
                         <li><a href="formulario.php"> Cadastro </a></li>
+                        <li><a href="usuario.php"> Usuario </a></li>
+
                     </ul>
-<!--                    <form class="navbar-form navbar-left" role="search">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Search">
-                        </div>
-                        <button type="submit" class="btn btn-default">Procurar...</button>
-                    </form>-->
+                    <!--                    <form class="navbar-form navbar-left" role="search">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Search">
+                                            </div>
+                                            <button type="submit" class="btn btn-default">Procurar...</button>
+                                        </form>-->
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="logout.php">Sair</a></li>
                     </ul>
