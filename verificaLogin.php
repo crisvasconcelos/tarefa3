@@ -8,5 +8,9 @@ if ($usuario == 'cris' and $senha == 123) {
     $_SESSION['logado'] = true;
     header("Location: index.php");
     
+} else {
+    echo "<script>alert('VOCÊ ERROU A SENHA')</script>";
+    echo "<script>window.location.replace('index.php')</script>";
+    
 }
 ?>
