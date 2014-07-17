@@ -31,27 +31,16 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="listas.php"> Médicos</a></li>
+                        <li><a href="listas.php"> Médicos</a></li>
                         <li><a href="consultas.php"> Consultas </a> </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Cadastro <b class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="formulario.php"> Formulário </a></li>
-                                <li><a href="#"> Chat privado</a></li>
-                                <li><a href="#"> Pagamentos efetuados</a></li>
-                                <li class="divider"></li>
-                                <li><a href="#"> Dúvidas</a></li>
-                                <li class="divider"></li>
-                                <li><a href="#"> Informações adicionais</a></li>
-                            </ul>
-                        </li>
+                        <li><a href="formulario.php"> Cadastro </a></li>
                     </ul>
-                    <form class="navbar-form navbar-left" role="search">
+<!--                    <form class="navbar-form navbar-left" role="search">
                         <div class="form-group">
                             <input type="text" class="form-control" placeholder="Search">
                         </div>
                         <button type="submit" class="btn btn-default">Procurar...</button>
-                    </form>
+                    </form>-->
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="logout.php">Sair</a></li>
                     </ul>
