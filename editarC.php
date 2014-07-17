@@ -4,7 +4,8 @@ include_once 'conexao.php';
 $id = $_POST['id'];
 $dia = $_POST['dia'];
 $paciente = $_POST['paciente'];
-pg_query("update consultas set dia= '$dia', paciente= '$paciente'  where id= $id");
+$medico = $_POST['medico'];
+pg_query("UPDATE consultas   SET id=$id, dia=$dia, paciente='$paciente', medico_id= $medico WHERE id = $id;");
 header("location: consultas.php");
  
 
