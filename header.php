@@ -3,7 +3,7 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
-        <title> Clínica </title>
+        <title> Clínica ÁUREA </title>
         <!-- Icone -->
         <link rel="shortcut icon" href="logo.png" />
         <!-- Bootstrap.css -->
@@ -33,7 +33,6 @@
                     <ul class="nav navbar-nav">
                         <li><a href="listas.php"> Médicos</a></li>
                         <li><a href="consultas.php"> Consultas </a> </li>
-                        <li><a href="formulario.php"> Cadastro </a></li>
                         <li><a href="usuario.php"> Usuario </a></li>
 
                     </ul>

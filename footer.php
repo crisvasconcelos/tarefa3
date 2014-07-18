@@ -1,5 +1,10 @@
 <div id="footer">
-    <p>                         Todos os direitos resarvados                      </p>
+    <p> Clínica ÁUREA - Todos os direitos resarvados - 2014  </p>
 </div>
 </body>
+<style type='text/css'>
+    #footer{
+        text-align: center;
+    }
+</style>
 </html>
